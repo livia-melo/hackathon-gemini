@@ -1,0 +1,35 @@
+.item-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .item-card {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      border-radius: 10px;
+      width: 85%;
+      min-width: 360px;
+  }
+  
+  .item-informacoes {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      border-radius: 5px;
+      padding: 10px;
+      justify-content: space-around;
+  } 
+  
+  .item-card img {
+      max-width: 120px;
+      max-height: 120px;
+      border-radius: 5px;
+  }
+  
+  .item-preco {
+      text-align: end;
+  }
